@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Mammal donkey = new Mammal("Louis Marcel", true);
+        Mammal donkey = new Mammal("Jeff", true);
         donkey.info();
 
         System.out.println();
