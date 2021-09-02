@@ -1,2 +1,3 @@
 # OOP Java Practice
- tbd.
+
+Practical exercise from OOP class.
