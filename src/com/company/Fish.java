@@ -1,6 +1,6 @@
 package com.company;
 
-public class Fish extends Animal {
+public class Fish extends Animal implements Updates {
 
 	public Fish(String name, boolean isEating) {
 		super(name, "Cordado", "Fish", isEating);
@@ -29,5 +29,15 @@ public class Fish extends Animal {
 		} else {
 			System.out.println("Not hungry bro!");
 		}
+	}
+
+	@Override
+	public void getColor() {
+		System.out.println("Im blue tuts tuts.");
+	}
+
+	@Override
+	public void getSuperPower() {
+		System.out.println("Im able to live outside the sea.");
 	}
 }
